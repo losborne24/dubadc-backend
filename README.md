@@ -1,3 +1,2 @@
-# Strapi application
+Durham University Badminton Club Website Frontend [Strapi, NodeJS, GraphQL]
 
-A quick description of your strapi application
