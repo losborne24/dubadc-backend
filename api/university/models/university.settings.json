@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "universities",
+  "info": {
+    "name": "University"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ContentMedia1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "ContentMedia2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "Contents": {
+      "type": "richtext",
+      "required": true
+    },
+    "Committee": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.profile"
+    }
+  }
+}

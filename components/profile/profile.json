@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_profile_profiles",
+  "info": {
+    "name": "Profile",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "Position": {
+      "type": "string",
+      "required": true
+    },
+    "ProfilePic": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
