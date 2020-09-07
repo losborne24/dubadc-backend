@@ -1,2 +1,3 @@
-Durham University Badminton Club Website Frontend [Strapi, NodeJS, GraphQL]
+Durham University Badminton Club Website Backend [Strapi, NodeJS, GraphQL]
 
+Deployed to Heroku
