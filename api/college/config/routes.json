@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/college",
+      "handler": "college.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/college",
+      "handler": "college.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/college",
+      "handler": "college.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "developments",
+  "info": {
+    "name": "Development"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Contents": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

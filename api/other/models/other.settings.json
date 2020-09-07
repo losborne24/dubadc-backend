@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "others",
+  "info": {
+    "name": "Other"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Contents": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

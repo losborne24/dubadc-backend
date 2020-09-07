@@ -1,19 +1,14 @@
 {
   "kind": "singleType",
-  "collectionName": "universities",
+  "collectionName": "abouts",
   "info": {
-    "name": "University"
+    "name": "About"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "Committee": {
-      "type": "component",
-      "repeatable": true,
-      "component": "profile.profile"
-    },
     "Contents": {
       "type": "component",
       "repeatable": false,

@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "colleges",
+  "info": {
+    "name": "College"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Contents": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
